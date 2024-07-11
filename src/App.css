@@ -1,0 +1,36 @@
+*{
+  background-image: url('../public/bg-we.jpg');
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 200px;
+  
+  color: white; /* Changed text color to black for visibility */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.weather-info {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
